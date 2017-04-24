@@ -1,0 +1,438 @@
+* { 
+	font-family: 'Electrolize', sans-serif;
+    margin: 0;
+}
+/*Header*/
+.header {background: #ffffff; 
+	     background-image: url(../img/bg.png);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+         height: 900px;
+         width: 100%;
+         box-sizing: border-box;
+         position: relative;
+         overflow-x: hidden;
+}
+
+/*Menu*/
+
+.header .menu{
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.header .menu ul {
+	display:flex;
+	align-items: center;
+	justify-content: space-between; 
+	padding: 0;
+	margin: 0 50px 0 50px;
+}
+
+.header .menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 70px;
+}
+
+.header .menu ul li a {
+border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+border: 2px solid #000000;
+margin: -2px;
+color: #000000;
+}
+
+.header .menu ul li a:hover {
+	
+border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+border: 2px solid #ff3b66;
+margin: -2px;
+color: #ff3b66;
+}
+.header .menu ul li a{
+text-decoration: none;
+color: #000000;
+font-size: 30px;
+padding: 10px;
+
+}
+
+.header .menu ul li img {
+    height: 150px;
+}
+
+/*Name of the company*/
+
+.header .name h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.header .name {
+    margin-top: 180px;
+	text-align: center;
+	color: #ff3b66;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-left: 0;
+    padding: 0;
+}
+
+/*Button FLY*/
+.header #bfly {
+    outline: none;
+    padding: 0;
+}
+
+.header #bfly {
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	margin-top: 200px;  
+}
+
+.header #bfly a button {
+background: transparent;
+font-size: 36px;
+border: solid 2px #000000;
+border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+padding: 10px 100px;
+}
+
+.header #bfly a button:hover {
+	color: #ff3b66;
+	transition: 0.3s;
+}
+
+
+
+
+/*ABOUT US*/
+.about {
+	height: 200px;
+	background-color: #ffffff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 60px;
+}
+.about ul {
+    list-style: none;
+     padding: 0;
+}
+.about h1{
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+
+/*About us pic*/
+
+.about_img {background: #ffffff; 
+	     background-image: url(../img/about_img.png);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+         height: 600px;
+         width: 100%;
+         box-sizing: border-box;
+         position: relative;
+         padding: 10% 30% 10% 30%;
+}
+
+/*About_Button_Contact*/
+
+.about_img #contact {
+    outline: none;
+    padding: 0;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;  
+}
+
+.about_img #contact a button {
+background: transparent;
+font-size: 30px;
+border: solid 2px #000000;
+border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+padding: 10px 50px;
+}
+
+.about_img #contact a button:hover {
+	color: #ff3b66;
+	transition: 0.3s;
+}
+
+/*Amazing*/
+.amazing {
+	height: 200px;
+	background-color: #ffffff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 60px;
+}
+.amazing ul {
+    list-style: none;
+     padding: 0;
+}
+.amazing h1{
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+/*Robots in our team*/
+
+.robots {
+    background-color: #ffffff;
+    padding: 0 15%;
+    margin-bottom: 50px;
+}
+
+
+/* OUR PILOTS*/
+
+.pilots {
+	height: 200px;
+	background-color: #ffffff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 60px;
+}
+.pilots ul {
+    list-style: none;
+     padding: 0;
+}
+.pilots h1{
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+
+.team-block {
+    width: 80%;
+	margin: 30px auto;
+    overflow: hidden; 
+     }
+.team-block ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 0;
+}
+.team-block ul li {
+    float: left;
+    width: 21%;
+    margin: 2% 2% 40px 2px;
+    list-style: none;
+    text-align: center;
+    border-radius: 50%; 
+}
+
+.team-block ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.team-block ul li a img {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+    border-radius: 50%
+}
+
+.team-block .social {
+	font-size: 35px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: grey;
+}
+
+.team-block .social i:hover {
+color: #ff3b66;
+cursor: pointer;
+text-decoration: none;
+transition: 0.4s;
+
+}
+
+/*Gallery*/
+
+.gallary {
+    background-color: #ffffff;
+    background-image: url(../img/gal.png);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+    margin-bottom: 50px;
+    color: #000000;
+    height: 600px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.gallary ul {
+    padding: 0;
+}
+
+.gallary ul {
+    list-style: none;  
+    padding: 0;
+    margin: 0;
+}
+
+/*Button PICS*/
+
+.gallary ul li #pics {
+    outline: none;
+    padding: 0;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	margin-top: 300px;  
+    outline: none;
+}
+
+.gallary #pics a button {
+background: transparent;
+font-size: 36px;
+border: solid 2px #000000;
+border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+padding: 10px 100px;
+    outline: none;
+}
+
+.gallary #pics a button:hover {
+	color: #ff3b66;
+	transition: 0.3s;
+    outline: none;
+}
+
+/*DIRECTIONS*/
+
+.dir {
+    background-color: #ffffff;
+    background-image: url(../img/dir.png);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+    margin-bottom: 50px;
+    color: #000000;
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.dir ul {
+    padding: 0;
+}
+
+.dir ul {
+    list-style: none;  
+    padding: 0;
+    margin: 0;
+}
+
+.dir ul li table {
+    margin: 5% 10% 5% 10%;
+}
+.dir ul li table tr td p{
+    margin: 2%;
+}
+
+/*Button PICS*/
+
+.dir ul li #pics {
+    outline: none;
+    padding: 0;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px; 
+    outline: none;
+}
+
+.dir #pics a button {
+background: transparent;
+font-size: 36px;
+border: solid 2px #000000;
+border-radius: 30px 30px 30px 30px;
+-moz-border-radius: 30px 30px 30px 30px;
+-webkit-border-radius: 30px 30px 30px 30px;
+padding: 10px 100px;
+outline: none;
+}
+
+.dir #pics a button:hover {
+	color: #ff3b66;
+	transition: 0.3s;
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+     background-color: #303030;
+     height: 350px;
+     padding: 30px;
+}
+
+.footer .contact .items {
+	padding: 20px;
+}
+
+.footer p{
+	color: #acabab;
+    font-size: 15px;
+}
+.footer h3 {
+	color: white;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+.footer #right {
+    padding: 5px
+}
+
+.footer .social {
+	font-size: 30px;
+	align-content: flex-start;
+    
+}
+
+.footer .social i {
+	color: #acabab;
+    
+}
+
+
+.footer .social i:hover {
+color: #ff3b66;
+cursor: pointer;
+text-decoration: none;
+transition: 0.5s;
+}
+
+
+
