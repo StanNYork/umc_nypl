@@ -149,7 +149,7 @@ padding: 10px 100px;
          width: 100%;
          box-sizing: border-box;
          position: relative;
-         padding: 5% 30% 10% 30%;
+         padding: 10% 20% 20% 20%;
 }
 
 /*About_Button_Contact*/
@@ -160,7 +160,7 @@ padding: 10px 100px;
 	display: flex; 
 	justify-content: center;
 	align-items: center;
-	margin-top: 50px;  
+	margin-top: 70px;  
 }
 
 .about_img #contact a button {
