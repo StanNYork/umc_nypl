@@ -149,7 +149,7 @@ padding: 10px 100px;
          width: 100%;
          box-sizing: border-box;
          position: relative;
-         padding: 10% 30% 10% 30%;
+         padding: 5% 30% 10% 30%;
 }
 
 /*About_Button_Contact*/
@@ -160,7 +160,7 @@ padding: 10px 100px;
 	display: flex; 
 	justify-content: center;
 	align-items: center;
-	margin-top: 20px;  
+	margin-top: 50px;  
 }
 
 .about_img #contact a button {
@@ -353,7 +353,7 @@ padding: 10px 100px;
 }
 
 .dir ul li table {
-    margin: 5% 10% 5% 10%;
+    margin: 5% 10% 3% 10%;
 }
 .dir ul li table tr td p{
     margin: 2%;
